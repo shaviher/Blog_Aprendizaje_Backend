@@ -6,6 +6,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 import { dbConnection } from "./mongo.js";
 import publicationRoutes from "../src/publications/publication.routes.js"
+import commentRoutes from "../src/comments/comment.routes.js";
 
 const middlewares = (app) => {
     app.use(express.urlencoded({extended: false}))
@@ -17,6 +18,7 @@ const middlewares = (app) => {
 
 const routes = (app) =>{
     app.use("/blog/v1/publication", publicationRoutes)
+    app.use("/blog/v1/comment", commentRoutes)
 }
 
 const conectarDB = async () =>{

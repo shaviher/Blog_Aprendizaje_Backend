@@ -30,7 +30,7 @@ const publicationsSchema = Schema({
     },
     comments: [{
         type: Schema.ObjectId,
-        ref: "comments",
+        ref: "Comments",
         default: []
     }]
 }, {
