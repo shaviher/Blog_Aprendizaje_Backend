@@ -1,23 +1,16 @@
 {
   "name": "blog-de-aprendizaje-backend",
   "version": "1.0.0",
-  "description": "Blog de aprendizaje backend",
+  "description": "Blog aprendizaje backend",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AndresArtiga333/Blog-de-aprendizaje-backend.git"
-  },
-  "author": "Andres Artiga",
+  "author": "Javier Hernandez",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AndresArtiga333/Blog-de-aprendizaje-backend/issues"
-  },
-  "homepage": "https://github.com/AndresArtiga333/Blog-de-aprendizaje-backend#readme",
+  
   "dependencies": {
     "cors": "^2.8.5",
     "date-fns": "^4.1.0",
