@@ -26,11 +26,11 @@ const publicationsSchema = Schema({
     category: {
         type: String,
         required: [true, 'Category is required'],
-        enum: ['CODE', 'RESEARCH', 'INFOGRAPHIC', 'CONCEPT MAP', 'MENTAL MAP']
+        enum: ['CODE', 'INFOGRAPHIC', 'CONCEPT MAP', 'MENTAL MAP']
     },
     comments: [{
         type: Schema.ObjectId,
-        ref: "Comentarios",
+        ref: "comments",
         default: []
     }]
 }, {
