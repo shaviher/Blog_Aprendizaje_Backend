@@ -65,3 +65,32 @@ export const deleteComment = async (req, res) => {
         });
     }
 };
+
+export const getPublicationById = async (req, res) => {
+  try {
+    const publication = await Publications
+      .findById(req.params.id)
+      .populate('comments', 'author content date -_id')
+      .lean();
+
+    if (!publication) {
+      return res.status(404).json({ error: 'Publication not found' });
+    }
+
+    const formatted = {
+      ...publication,
+      date: formatDate(publication.date),
+      comments: formatComments(publication.comments || [])
+    };
+
+    res.status(200).json({
+      message: 'Publication found',
+      publication: formatted
+    });
+  } catch (err) {
+    res.status(500).json({
+      error: 'Error fetching publication',
+      message: err.message
+    });
+  }
+};
