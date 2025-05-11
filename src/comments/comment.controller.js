@@ -30,3 +30,38 @@ export const addComment = async (req, res) => {
         });
     }
 };
+
+export const deleteComment = async (req, res) => {
+    try {
+        const { cid } = req.params;
+
+        const deletedComment = await Comments.findByIdAndDelete(cid);
+        if (!deletedComment) {
+            return res.status(404).json({
+                success: false,
+                msg: 'Comment not found'
+            });
+        }
+
+        await Publications.updateMany(
+            { comments: cid },
+            { $pull: { comments: cid } }
+        );
+
+        res.status(200).json({
+            success: true,
+            msg: 'Comment deleted successfully',
+            data: {
+                commentId: deletedComment._id,
+                author: deletedComment.author,
+                content: deletedComment.content
+            }
+        });
+    } catch (error) {
+        res.status(500).json({
+            success: false,
+            msg: 'Error deleting comment',
+            error: error.message
+        });
+    }
+};
