@@ -48,3 +48,47 @@ export const deletePublication = async (req, res) => {
     });
   }
 };
+
+const formatDate = (date) => {
+  return new Date(date).toLocaleDateString('es-ES', {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric'
+  });
+};
+
+const formatComments = (comments) => {
+  return comments.map(comment => ({
+    ...comment,
+    date: formatDate(comment.date)  
+  }));
+};
+
+export const listPublications = async (req, res) => {
+  try {
+    const filter = {};
+    if (req.body?.category) filter.category = req.body.category;
+    if (req.body?.course) filter.course = req.body.course;
+
+    const publications = await Publications
+      .find(filter)
+      .populate('comments', 'author content date -_id')
+      .sort('-date')
+      .lean();
+
+    const formatted = publications.map(pub => ({
+      ...pub,
+      date: formatDate(pub.date),
+      comments: formatComments(pub.comments || []) 
+    }));
+
+    res.status(200).json({ success: true, publications: formatted });
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: 'Error listing publications',
+      error: err.message
+    });
+  }
+};
+
