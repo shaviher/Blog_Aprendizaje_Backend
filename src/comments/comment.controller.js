@@ -83,7 +83,7 @@ export const updateComment = async (req, res) => {
                 success: false,
                 msg: 'Comment not found'
             });
-        }
+        }   
 
         res.status(200).json({
             success: true,

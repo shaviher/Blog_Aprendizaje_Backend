@@ -1,0 +1,257 @@
+{
+	"info": {
+		"_postman_id": "96011a9e-eb22-4c00-b312-572e07298494",
+		"name": "Blog",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41838921"
+	},
+	"item": [
+		{
+			"name": "Publications",
+			"item": [
+				{
+					"name": "http://127.0.0.1:3000/blog/v1/publication/createPublication",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n    \"title\": \"Simulador de Cajero Automático\",\r\n    \"content\": \"Programar un simulador básico de cajero automático que permita depósitos y retiros.\",\r\n    \"course\": \"SUPERVISED PRACTICE\",\r\n    \"category\": \"CODE\"\r\n  }\r\n  ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/blog/v1/publication/createPublication",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"blog",
+								"v1",
+								"publication",
+								"createPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:3000/blog/v1/publication/deletePublication/682128c443bf7254b3e2128e",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/blog/v1/publication/deletePublication/682128c443bf7254b3e2128e",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"blog",
+								"v1",
+								"publication",
+								"deletePublication",
+								"682128c443bf7254b3e2128e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": " http://127.0.0.1:3000/blog/v1/publication/listPublications",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/blog/v1/publication/listPublications",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"blog",
+								"v1",
+								"publication",
+								"listPublications"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": " http://127.0.0.1:3000/blog/v1/publication/getPublicationById/682133c260afc7399ade376b",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/blog/v1/publication/getPublicationById/682133c260afc7399ade376b",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"blog",
+								"v1",
+								"publication",
+								"getPublicationById",
+								"682133c260afc7399ade376b"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comments",
+			"item": [
+				{
+					"name": "http://127.0.0.1:3000/blog/v1/comment/addComment/682121ee43bf7254b3e2128c",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"author\": \"Braulio\",\r\n  \"content\": \"Que tarea más linda\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/blog/v1/comment/addComment/682121ee43bf7254b3e2128c",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"blog",
+								"v1",
+								"comment",
+								"addComment",
+								"682121ee43bf7254b3e2128c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:3000/blog/v1/comment/deleteComment/682132c160afc7399ade3760",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/blog/v1/comment/deleteComment/682132c160afc7399ade3760",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"blog",
+								"v1",
+								"comment",
+								"deleteComment",
+								"682132c160afc7399ade3760"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:3000/blog/v1/comment/updateComment/68213ae983c704b24f36cae1",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"author\": \"Updated Author\",\r\n    \"content\": \"This is the updated comment content.\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/blog/v1/comment/updateComment/68213ae983c704b24f36cae1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"blog",
+								"v1",
+								"comment",
+								"updateComment",
+								"68213ae983c704b24f36cae1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

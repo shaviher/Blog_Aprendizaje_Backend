@@ -1,0 +1,132 @@
+[{
+  "_id": {
+    "$oid": "68213ad983c704b24f36cadd"
+  },
+  "author": "Braulio",
+  "content": "Esta tarea se hizo con chat gpt",
+  "date": {
+    "$date": "2025-05-12T00:03:37.124Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68213ae983c704b24f36cae1"
+  },
+  "author": "Updated Author",
+  "content": "This is the updated comment content.",
+  "date": {
+    "$date": "2025-05-12T00:03:53.128Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682140ba831d8bdb843e676b"
+  },
+  "author": "MartaCDev",
+  "content": "Muy buen resumen, me ayudó a entender mejor los mapas mentales.",
+  "date": {
+    "$date": "2025-05-12T00:28:42.999Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682140cd831d8bdb843e676f"
+  },
+  "author": "LuisTechGT",
+  "content": "Gracias por compartir, me gustó cómo estructuraste el contenido del taller.",
+  "date": {
+    "$date": "2025-05-12T00:29:01.788Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682140e1831d8bdb843e6773"
+  },
+  "author": "Vale123",
+  "content": "¿Podrías explicar un poco más sobre el concepto que usaste en el tercer párrafo?",
+  "date": {
+    "$date": "2025-05-12T00:29:21.258Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682140f3831d8bdb843e6777"
+  },
+  "author": "coderNico",
+  "content": "Yo también hice algo similar en mi práctica supervisada, estuvo genial.",
+  "date": {
+    "$date": "2025-05-12T00:29:39.659Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68214100831d8bdb843e677b"
+  },
+  "author": "AnaEstudia",
+  "content": "Excelente publicación, muy clara y directa para entender el tema.",
+  "date": {
+    "$date": "2025-05-12T00:29:52.196Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821412f831d8bdb843e677f"
+  },
+  "author": "ProfeCarlos",
+  "content": "Buen trabajo, se nota que entendiste bien el tema del taller.",
+  "date": {
+    "$date": "2025-05-12T00:30:39.021Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68214145831d8bdb843e6783"
+  },
+  "author": "MariDev",
+  "content": "Me gustó mucho cómo usaste el mapa conceptual, muy ordenado.",
+  "date": {
+    "$date": "2025-05-12T00:31:01.671Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68214155831d8bdb843e6787"
+  },
+  "author": "Santi04",
+  "content": "Este tipo de publicaciones ayudan bastante antes de un examen. Gracias.",
+  "date": {
+    "$date": "2025-05-12T00:31:17.955Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821416a831d8bdb843e678b"
+  },
+  "author": "JimeEstu",
+  "content": "¿Usaste alguna herramienta específica para hacer el infográfico?",
+  "date": {
+    "$date": "2025-05-12T00:31:38.680Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68214180831d8bdb843e678f"
+  },
+  "author": "LeoGamer",
+  "content": "Está bueno, pero creo que podrías profundizar un poco más en la explicación.",
+  "date": {
+    "$date": "2025-05-12T00:32:00.305Z"
+  },
+  "__v": 0
+}]

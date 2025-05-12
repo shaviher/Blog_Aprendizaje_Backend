@@ -1,0 +1,189 @@
+[{
+  "_id": {
+    "$oid": "682121ee43bf7254b3e2128c"
+  },
+  "title": "Pagina Wed",
+  "content": "Hacer una pagina wed utilizando HTML y CSS",
+  "course": "WORKSHOP",
+  "category": "CODE",
+  "comments": [
+    {
+      "$oid": "68213ad983c704b24f36cadd"
+    },
+    {
+      "$oid": "68213ae983c704b24f36cae1"
+    },
+    {
+      "$oid": "682140ba831d8bdb843e676b"
+    }
+  ],
+  "date": {
+    "$date": "2025-05-11T22:17:18.083Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682133a460afc7399ade3765"
+  },
+  "title": "Mapa Conceptual de Redes",
+  "content": "Crear un mapa conceptual que explique los tipos de redes de computadoras.",
+  "course": "TECHNOLOGY",
+  "category": "CONCEPT MAP",
+  "comments": [
+    {
+      "$oid": "682140cd831d8bdb843e676f"
+    }
+  ],
+  "date": {
+    "$date": "2025-05-11T23:32:52.780Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682133b060afc7399ade3767"
+  },
+  "title": "Infografía sobre Ciberseguridad",
+  "content": "Diseñar una infografía con los principios básicos de ciberseguridad.",
+  "course": "SUPERVISED PRACTICE",
+  "category": "INFOGRAPHIC",
+  "comments": [
+    {
+      "$oid": "682140e1831d8bdb843e6773"
+    }
+  ],
+  "date": {
+    "$date": "2025-05-11T23:33:04.628Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682133bb60afc7399ade3769"
+  },
+  "title": "Práctica Guiada de HTML y CSS",
+  "content": "Realizar una página web básica utilizando HTML y CSS como parte de la práctica supervisada.",
+  "course": "SUPERVISED PRACTICE",
+  "category": "CODE",
+  "comments": [
+    {
+      "$oid": "682140f3831d8bdb843e6777"
+    }
+  ],
+  "date": {
+    "$date": "2025-05-11T23:33:15.348Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682133c260afc7399ade376b"
+  },
+  "title": "React App de Tareas",
+  "content": "Desarrollar una aplicación de tareas utilizando React.",
+  "course": "WORKSHOP",
+  "category": "CODE",
+  "comments": [
+    {
+      "$oid": "68214100831d8bdb843e677b"
+    }
+  ],
+  "date": {
+    "$date": "2025-05-11T23:33:22.651Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682133c560afc7399ade376d"
+  },
+  "title": "Mapa Mental de Componentes de una Computadora",
+  "content": "Elaborar un mapa mental donde se detallen los componentes internos y externos de un equipo de cómputo.",
+  "course": "TECHNOLOGY",
+  "category": "MENTAL MAP",
+  "comments": [
+    {
+      "$oid": "6821412f831d8bdb843e677f"
+    }
+  ],
+  "date": {
+    "$date": "2025-05-11T23:33:25.276Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682133ef60afc7399ade376f"
+  },
+  "title": "CRUD con Node.js y MongoDB",
+  "content": "Desarrollar una API REST que permita crear, leer, actualizar y eliminar datos.",
+  "course": "WORKSHOP",
+  "category": "CODE",
+  "comments": [
+    {
+      "$oid": "68214145831d8bdb843e6783"
+    }
+  ],
+  "date": {
+    "$date": "2025-05-11T23:34:07.497Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682133f660afc7399ade3771"
+  },
+  "title": "Formulario con Validación en React",
+  "content": "Crear un formulario que incluya validaciones en tiempo real usando React.",
+  "course": "SUPERVISED PRACTICE",
+  "category": "CODE",
+  "comments": [
+    {
+      "$oid": "68214155831d8bdb843e6787"
+    }
+  ],
+  "date": {
+    "$date": "2025-05-11T23:34:14.344Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682133fc60afc7399ade3773"
+  },
+  "title": "Landing Page con HTML y CSS",
+  "content": "Diseñar una landing page responsive como introducción al desarrollo web.",
+  "course": "TECHNOLOGY",
+  "category": "CODE",
+  "comments": [
+    {
+      "$oid": "6821416a831d8bdb843e678b"
+    }
+  ],
+  "date": {
+    "$date": "2025-05-11T23:34:20.948Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821340460afc7399ade3775"
+  },
+  "title": "App del Clima con API Externa",
+  "content": "Consumir una API pública del clima para mostrar el pronóstico según la ciudad ingresada.",
+  "course": "WORKSHOP",
+  "category": "CODE",
+  "comments": [
+    {
+      "$oid": "68214180831d8bdb843e678f"
+    }
+  ],
+  "date": {
+    "$date": "2025-05-11T23:34:28.162Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821340b60afc7399ade3777"
+  },
+  "title": "Simulador de Cajero Automático",
+  "content": "Programar un simulador básico de cajero automático que permita depósitos y retiros.",
+  "course": "SUPERVISED PRACTICE",
+  "category": "CODE",
+  "comments": [],
+  "date": {
+    "$date": "2025-05-11T23:34:35.113Z"
+  }
+}]
