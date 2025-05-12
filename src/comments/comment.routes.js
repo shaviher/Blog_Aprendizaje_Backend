@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { addComment, deleteComment } from './comment.controller.js';
+import { addComment, deleteComment, updateComment } from './comment.controller.js';
 import { createCommentsValidator } from "../middlewares/comments-validator.js";
 
 
@@ -9,9 +9,7 @@ router.post("/addComment/:pid", createCommentsValidator, addComment);
 
 router.delete("/deleteComment/:cid",  deleteComment);
 
-// elimianr 
-//editar 
-
+router.put("/updateComment/:cid", updateComment)
 
 
 export default router;
